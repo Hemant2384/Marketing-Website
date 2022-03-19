@@ -1,0 +1,90 @@
+.body {
+    background-color: #ffffff;
+}
+.Signin{
+    padding: 20px;
+    text-align: center;
+}
+.logo {
+    font-size: 35px;
+    font-weight: bolder;
+    padding-bottom: 10px;
+    color: #4b59f7;
+}
+.Signin > form {
+    background: white;
+    display: inline-block;
+    border-radius: 4px;
+    box-shadow: rgba(60, 66, 87, 0.12) 0px 7px 14px 0px, rgba(0, 0, 0, 0.12) 0px 3px 6px 0px;
+    padding : 0 50px;
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+.Signin > form > input {
+  width: 310px;
+  padding: 16px 25px;
+  margin: auto;
+  display: block;
+  border: unset;
+  border-radius: 4px;
+  outline-color: #4b59f7;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                rgba(60, 66, 87, 0.16) 0px 0px 0px 1px, 
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+}
+.Signin > form > label {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: gray;
+}
+.Signin > form  > button {
+  width: 350px;
+  height: 50px;
+  margin-top: 25px;
+  font-size: 15px;
+  display: block;
+  border: unset;
+  border-radius: 4px;
+    background-color: #4b59f7;
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                rgba(0, 0, 0, 0.12) 0px 1px 1px 0px, 
+                rgb(84, 105, 212) 0px 0px 0px 1px, 
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                rgba(60, 66, 87, 0.08) 0px 2px 5px 0px;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 20px;
+} 
+.Signin > form > button {
+    text-decoration: none;
+    color: #fff;
+}
+.Signup > form {
+    text-decoration: none;
+    color: #4b59f7;
+}
+.incorrect {
+    color: red;
+    margin-top: 5px;
+}
+.eye-icon{
+    width: 25px;
+    height: 25px;
+    float: right;
+    margin-left: -30px;
+    margin-top: -35px;
+    opacity: 0.7;
+    cursor: pointer;
+}
+.eye-icon:hover {
+    opacity: 1;
+}

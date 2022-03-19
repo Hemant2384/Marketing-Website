@@ -1,0 +1,101 @@
+.mainn {
+    background-color: white;
+}
+.main_display{
+    display: grid;
+}
+.team_contents {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+.logo{
+    text-align: center;
+    margin-top: 20px;
+}
+.txt {
+    text-align: center;
+    font-size: 23px;
+}
+.team_data {
+    display: grid;
+    grid-template-columns: repeat(3, calc(33.3333% - 12.6667px));
+    min-height: 650px;
+    grid-gap: 19px;;
+}
+.member_icon {
+    text-align: right;
+    padding-top: 5px;
+    padding-right: 10px;
+}
+.member_icon > svg {
+    height: 60px;
+    width: 60px;
+}
+.member_name {
+    text-align: right;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    font-size: 25px;
+}
+.data_component {
+    width: 500px;
+    height: 292px;
+    color: #fff;
+    box-sizing: border-box;
+    border-radius: 7px;
+    background-color: #242424;
+}
+.member_description {
+    padding: 10px 10px;
+}
+.data_component_more {
+    padding-left: 10px;
+    color: white;
+    outline: none;
+    font-size: 20px;
+}
+@media (min-width:1016px) and (max-width:1540px) {
+    .team_data {
+        grid-template-columns: repeat(2, calc(50% - 12.6667px));
+        min-height: 350px;
+        grid-gap: 19px;
+        justify-content: space-evenly;
+        margin-bottom: 10px;
+    }
+    .data_component {
+        width: 500px;
+        height: 352px;
+    }
+}
+@media (min-width:630px) and (max-width:1016px) {
+    .team_data {
+        grid-template-columns: repeat(1, calc(100% - 12.6667px));
+        min-height: 350px;
+        grid-gap: 19px;
+        justify-content: space-evenly;
+        margin-bottom: 10px;
+    }
+    .data_component {
+        width: 500px;
+        height: 352px;
+    }
+}
+@media (min-width:10px) and (max-width:629px) {
+    .main {
+        width: fit-content;
+    }
+    .team_data {
+        grid-template-columns: repeat(1, calc(100% - 12.6667px));
+        min-height: 350px;
+        grid-gap: 19px;
+        justify-content: space-evenly;
+        margin-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 20px;
+    }
+    .data_component {
+        width: 500px;
+        height: 352px;
+    }
+}

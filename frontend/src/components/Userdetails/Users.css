@@ -1,0 +1,135 @@
+.usersbody {
+    display: grid;
+    justify-content: center;
+}
+.userdetails {
+    display: grid;
+    grid-template-columns: repeat(3, calc(33.3333% - 12.6667px));
+    grid-gap: 170px;
+    font-size: 1.1rem;
+}
+/* .userdetails :nth-child(2){
+    padding-left: -20px;
+} */
+.userdetails-1>label {
+    border-bottom: 2px solid #4b59f7;
+    font-size: 22px;
+}
+.userr {
+    display: grid;
+    justify-content: center;
+    font-size: 2.5rem;
+}
+.userr-icon {
+    width: 70px;
+    height: 70px;
+    padding-left: 50px;
+}
+.editicon{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: 10px;
+    margin-right: -134px;
+    font-size: 30px;
+}
+
+.savebutton {
+     margin-top: 20px;
+     height: 50px;
+     width: 100px;
+}
+
+.edit-name {
+    font-size: 25px;
+    display: flex;
+    width: 250px;
+    height: 40px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+}
+
+.edit-name:active {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+}
+/* ::-webkit-input-placeholder {
+    font-size: 100px;
+} */
+.edit-name-option {
+    font-size: 30px;
+    display: flex;
+    width: 250px;
+    height: 40px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    cursor: pointer;
+}
+.edit {
+    cursor: pointer;
+}
+.editicon-button-1{
+    width: 90px;
+    height: 40px;
+    margin-left: 5px;
+    cursor: pointer;
+    background-color: #4b59f7;
+    color: white;
+    border-radius: 7px;
+}
+.editicon-button-1:hover{
+    transform: perspective(500px) translateZ(-10px);
+}
+
+.user-info {
+    font-size: 1.5rem;
+    padding-top: 8px;
+}
+.Popup-saved {
+    text-align: center;
+    font-size: 2.5rem;
+    background-color: #4b59f7;
+    display: grid;
+    width: 24%;
+    height: auto;
+    justify-content: center;
+    position: fixed;
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    min-height: 12.5rem;
+    padding-bottom: -10px;
+    color: white;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    animation : appear forwards 0.75s;
+}
+@keyframes appear {
+    from {
+        opacity: 0.5;
+    }
+    to {
+        opacity: 1.0;
+    }
+}
+.tick {
+    margin-top: 45px;
+    margin-left: 115px;
+    width: 200px;
+    height: 65px;
+    color: white;
+}
+.cancel-popup svg{
+    margin-left: 390px;
+    float: right;
+    color: black;
+}
+.cancel {
+    cursor: pointer;
+}

@@ -1,0 +1,82 @@
+.body {
+    background-color: #ffffff;
+}
+.Signup{
+    padding: 20px;
+    text-align: center;
+}
+.logo {
+    font-size: 35px;
+    font-weight: bolder;
+    padding-bottom: 10px;
+    color: #4b59f7;
+}
+.Signup > form {
+    background: white;
+    display: inline-block;
+    border-radius: 4px;
+    box-shadow: rgba(60, 66, 87, 0.12) 0px 7px 14px 0px, rgba(0, 0, 0, 0.12) 0px 3px 6px 0px;
+    padding : 0 50px;
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+.Signup > form > input {
+  width: 300px;
+  padding: 16px 25px;
+  margin: auto;
+  display: block;
+  border: unset;
+  border-radius: 4px;
+  outline-color: #4b59f7;
+  font-size: 14px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                rgba(60, 66, 87, 0.16) 0px 0px 0px 1px, 
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+}
+.Signup > form > label {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: gray;
+    font-size: 15px;
+}
+.Signup > form > .an {
+  width: 350px;
+  height: 50px;
+  margin-top: 25px;
+  font-size: 15px;
+  display: block;
+  border: unset;
+  border-radius: 4px;
+    background-color: #4b59f7;
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                rgba(0, 0, 0, 0.12) 0px 1px 1px 0px, 
+                rgb(84, 105, 212) 0px 0px 0px 1px, 
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                rgba(60, 66, 87, 0.08) 0px 2px 5px 0px;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 20px;
+} 
+
+.Signup > form > a > button {
+    text-decoration: none;
+    color: #fff;
+}
+.Signup > form > a > label {
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.Signup > form > a {
+    text-decoration: none;
+    color: #4b59f7;
+}

@@ -1,0 +1,43 @@
+.sidebar_contents {
+    width: fit-content;
+    display: flex;
+    text-align: left;
+    color: white;
+}
+.sidebar__items {
+    cursor: pointer;
+    display: grid;
+    color: white;
+    background-color:#101522 ;
+    font-size: 20px;
+    font-weight: lighter;
+    animation: stretch 0.5s;
+}
+.sidebar__items :hover {
+    background: #252831;
+}
+@keyframes stretch {
+    from{
+        width: 0%;
+    }
+    to {
+        width: 100%;
+    }
+}
+.sidebar__items > span {
+    display: flex;
+    text-align: end;
+    padding-right: 70px;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.sidebar__items > span > svg {
+    padding-right: 20px;
+    margin-bottom: 20px;
+    align-items: left;
+}
+.righticon {
+    padding-left: 10px;
+    padding-top: 3px;
+}
+

@@ -1,0 +1,26 @@
+.dropdown {
+    border: none;
+    display: flex;
+    background-color: #1888ff;
+    color: white;
+    justify-content: center;
+    position: fixed;
+}
+.dropdown_items{
+    display: grid;
+}
+.dropdown_items > a {
+    padding: 15px 15px;
+    text-align: left;
+    text-decoration: none;
+    color: white;
+}
+.dropdown_items :hover {
+    background: #5cabff;
+    border-radius: 4px;
+    transition: all 0.2s ease-out;
+    cursor: pointer;
+}
+.dropdown.clicked {
+    display: none;
+}

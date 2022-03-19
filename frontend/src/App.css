@@ -1,0 +1,8 @@
+*{
+  font-family: 'PT Sans', sans-serif;
+}
+@media only screen and (max-width : 440px)  {
+  body{
+    width: fit-content;
+  }
+}

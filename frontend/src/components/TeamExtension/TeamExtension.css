@@ -1,0 +1,24 @@
+.sidebar_items {
+    color: #fff;
+    background-color:#101522 ;
+    padding-left: 10px;
+}
+.sidebar_items > svg {
+    height: 30px;
+    width: 30px;
+}
+.emptyspace {
+    height: 400px;
+    width: 25%;
+    background-color: #fff;
+    animation: stretc 10s;
+}
+    
+@keyframes stretc {
+    from{
+        width: 25%;
+    }
+    to {
+        width: 0%;
+    }
+}
